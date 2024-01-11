@@ -1823,17 +1823,6 @@ language-servers = [ "vala-language-server" ]
 name = "vala"
 source = { git = "https://github.com/vala-lang/tree-sitter-vala", rev = "c9eea93ba2ec4ec1485392db11945819779745b3" }
 
-[[language]]
-name = "hare"
-scope = "source.hare"
-injection-regex = "hare"
-file-types = ["ha"]
-comment-token = "//"
-indent = { tab-width = 8, unit = "\t" }
-
-[[grammar]]
-name = "hare"
-source = { git = "https://git.sr.ht/~ecmma/tree-sitter-hare", rev = "2495958aaf3f93581c87ec020164255e80655331" }
 
 [[language]]
 name = "devicetree"
@@ -2886,16 +2875,6 @@ grammar = "jinja2"
 name = "jinja2"
 source = { git = "https://github.com/varpeti/tree-sitter-jinja2", rev = "a533cd3c33aea6acb0f9bf9a56f35dcfe6a8eb53" }
 
-[[grammar]]
-name = "wren"
-source = { git = "https://git.sr.ht/~jummit/tree-sitter-wren", rev = "6748694be32f11e7ec6b5faeb1b48ca6156d4e06" }
-
-[[language]]
-name = "wren"
-scope = "source.wren"
-injection-regex = "wren"
-file-types = ["wren"]
-indent = { tab-width = 2, unit = "  "}
 
 [[language]]
 name = "unison"
@@ -2938,14 +2917,6 @@ file-types = ["strace"]
 name = "strace"
 source = { git = "https://github.com/sigmaSd/tree-sitter-strace", rev = "2b18fdf9a01e7ec292cc6006724942c81beb7fd5" }
 
-[[language]]
-name = "gemini"
-scope = "source.gmi"
-file-types = ["gmi"]
-
-[[grammar]]
-name = "gemini"
-source = { git = "https://git.sr.ht/~nbsp/tree-sitter-gemini", rev = "3cc5e4bdf572d5df4277fc2e54d6299bd59a54b3" }
 
 [[language]]
 name = "agda"
